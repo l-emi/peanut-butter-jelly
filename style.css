@@ -35,6 +35,7 @@ audio {
 
 svg {
     height: 70vh;
+    width: 44vw;
 }
 
 #svg-box {
@@ -49,10 +50,18 @@ svg {
 #pb {
     display: table-cell;
     float: left;
-    margin-right: 12vw;
+    margin-right: 1vw;
 }
 
 #jelly {
     display: table-cell;
     float: right;
+}
+
+@media (max-width: 365px) {
+    #instructions {
+        height: 2.8em;
+        line-height: 2.8em;
+        font-size: 0.8em;
+    }
 }
